@@ -9,6 +9,8 @@ namespace Bank.Api.Controllers
     [ApiController]
     public class AccountController : ControllerBase
     {
+        //username = nik_ravat
+        //password = Test@2024
         private readonly IAccountRepository _accountRepository;
 
         public AccountController(IAccountRepository accountRepository)
